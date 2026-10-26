@@ -1,0 +1,18 @@
+    <section class="grid g2">
+      <div class="card">
+        <div class="card-title"><h2>.env.example <small class="muted">(expected)</small></h2><span class="pill" id="ca"></span></div>
+        <textarea id="a" class="code envbox" spellcheck="false" aria-label="Expected env"></textarea>
+      </div>
+      <div class="card">
+        <div class="card-title"><h2>.env <small class="muted">(actual)</small></h2><span class="pill" id="cb"></span></div>
+        <textarea id="b" class="code envbox" spellcheck="false" aria-label="Actual env"></textarea>
+      </div>
+    </section>
+    <section class="card result">
+      <div class="card-title"><h2>Comparison</h2><div class="row"><div class="sum" id="sum"></div><label class="check"><input type="checkbox" id="showSame" /> Show matching</label><label class="check"><input type="checkbox" id="reveal" /> Reveal secrets</label></div></div>
+      <div class="table-wrap"><table class="tbl" id="tbl"></table></div>
+    </section>
+    <section class="grid g2">
+      <div class="card"><div class="card-title"><h2>Lint</h2></div><ul class="issues" id="issues"></ul></div>
+      <div class="card"><div class="card-title"><h2>Generate .env.example</h2><div class="row"><button class="btn small" id="gen">From .env</button><button class="btn small primary" id="dl">Download</button></div></div><pre class="out" id="ex"></pre></div>
+    </section>

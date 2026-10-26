@@ -1,0 +1,12 @@
+.envbox{min-height:220px;font-size:13px}
+.result{margin:16px 0}
+.sum{display:flex;gap:6px;flex-wrap:wrap}
+.table-wrap{overflow:auto}
+.tbl{width:100%;border-collapse:collapse;font:13px var(--mono,monospace)}
+.tbl th,.tbl td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top;word-break:break-all}
+.tbl th{color:var(--muted);font-weight:500;font-size:12px}
+.st{display:inline-block;padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;white-space:nowrap}
+.st.missing{background:#ff5c7a22;color:#ff7b93}.st.extra{background:#6c63ff26;color:#a9a3ff}.st.changed{background:#ffc85722;color:#ffd47a}.st.empty{background:#ff9f4322;color:#ffb36b}.st.same{background:#3ee69a1f;color:#62efb0}
+.issues{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;font-size:13px}
+.issues li{padding:8px 10px;border-radius:8px;background:#ffffff08}.issues b{font-family:var(--mono,monospace);color:var(--acc);margin-right:6px}
+#ex{min-height:160px;max-height:260px}

@@ -1,0 +1,30 @@
+{
+  "name": "prism-env-diff",
+  "version": "1.0.0",
+  "description": "Compare .env files, lint them, and generate a secret-free .env.example — fully in the browser.",
+  "scripts": {
+    "test": "node --test",
+    "start": "npx --yes serve ."
+  },
+  "keywords": [
+    "dotenv",
+    "env",
+    "environment-variables",
+    "config",
+    "devops",
+    "security",
+    "dev-tools",
+    "vanilla-js",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-env-diff.git"
+  },
+  "homepage": "https://krishyaa06.github.io/prism-env-diff/",
+  "engines": {
+    "node": ">=18.17"
+  }
+}
